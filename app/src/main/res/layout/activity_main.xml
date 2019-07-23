@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wzz.customview.MyViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f00"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="火箭球星哈登在NBA里有诸多招牌的技术,"
+        android:textColor="#fff"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="他背负的争议也不少"
+        android:textColor="#fff"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="都说打人不打脸,可哈登偏偏遇到较真的小球迷"
+        android:textColor="#fff"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="特别是很多人质疑他的后撤步3分是走步"
+        android:textColor="#fff"
+
+        />
+
+</com.wzz.customview.MyViewGroup>
