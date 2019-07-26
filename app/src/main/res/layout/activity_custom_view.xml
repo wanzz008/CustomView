@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+>
+
+    <com.wzz.customview.view.MyView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:mColor="#0f0"
+        app:mHeight="100"
+        app:mName="bruce"
+        app:mSize="8dp"
+        app:mWidth="100"
+        app:sex="man"
+        app:student="true"
+    />
+
+    <com.wzz.customview.view.MultiView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="10dp"/>
+
+    <com.wzz.customview.view.MyOnMeasureView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
